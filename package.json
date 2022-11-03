@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEidu/HerreriaSIC-Web-Page.git"
+  },
+  "author": "Eidu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEidu/HerreriaSIC-Web-Page/issues"
+  },
+  "homepage": "https://github.com/MrEidu/HerreriaSIC-Web-Page#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "touch": "^3.1.0"
+  }
+}
