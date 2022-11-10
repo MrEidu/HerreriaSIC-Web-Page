@@ -1,15 +1,14 @@
 import express from "express";
+import routes from "./routes";
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 //send enpoint
-app.get('/api', (req, res) => {
-res.send("Hello World");
-});
+app.use('/api', routes);
 
 //check for port
-app.listen(port, () => console.log(`Listening on port  ${port}!`));
+app.listen(port, () => console.log(`Server started at http://localhost:${port}`));
 
 export default app;
 
